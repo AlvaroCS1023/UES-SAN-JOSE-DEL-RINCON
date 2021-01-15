@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<tr>
+    <td>Nombre</td>
+    <td>
+        <label>
+            <input type="text" name="nombre" onblur="may(this.name)">
+        </label>      
+    </td>
+</tr>
+<br>
+<br>
+<tr>
+    <td>Apellidos</td>
+    <td>
+        <label>
+            <input type="text" name="ap" onblur="may(this.name)">
+        </label>
+    </td>
+</tr>
+<br>
+<br>
+<tr>
+    <td>Correos</td>
+    <td>
+        <label>
+            <textarea name="correo" onblur="may(this.name)"cols="30"></textarea>
+        </label>
+    </td>
+</tr>
+<br>
+<br>
+<td>Matricula</td>    
+    <td>
+        <label>
+            <input name="matricula" onblur="may(this.name)"cols="70"></input>
+        </label>
+    </td>
+    <br>
+<br>
+    <tr>
+        <td>Telefono</td>
+        <td>
+            <label>
+                <input name="tel" maxlength="10" onblur="may(this.name)"cols="70"></input>
+            </label>
+        </td>
+    </tr>
+
+
+</form>
+<br>
+<br>
+<tr>
+
+    <td><label></label>&nbsp;<label><label></label></label></td>
+    <td>&nbsp; <input type="reset" value="suprimir">
+    <input type="submit" value="registrar"/>
+    </td>
+</tr>
+</body>
+</html>
